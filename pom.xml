@@ -5,12 +5,12 @@
   <artifactId>ProjetB</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>ProjetB</name>
+  <name>MonPremierProjet</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
 	<snapshotRepository>
              <id>snapshots</id>
-        <url>http://192.168.100.104:8081/artifactory/RepoProjetB</url>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 
  
@@ -29,17 +29,18 @@
       <url>http://localhost:8081/repository/maven-releases/</url>
     </repository> -->
   </distributionManagement>
-  <modules>
-  <module>ProjetEnfantB</module>
-  </modules>
+  <!--<modules>
+<module>ProjetEnfantB</module>
+  </modules> -->
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.7</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
+    </dependencies>  
+    <!-- <dependency>
     <groupId>com.wunderit</groupId>
     <artifactId>enfant</artifactId>
     <version>1.3-SNAPSHOT</version>
@@ -51,6 +52,19 @@
       <id>RepoA</id>
       <url>http://192.168.100.104:8081/artifactory/libs-snapshot</url>
     </repository>
-  </repositories>
+  </repositories> -->
+  <build>
+    <finalName>Calculatrice</finalName>
+	  <plugins>
+	     <plugin>
+	        <groupId>org.apache.maven.plugins</groupId>
+	        <artifactId>maven-compiler-plugin</artifactId>
+	        <configuration>
+	          <source>1.5</source>
+	          <target>1.5</target>
+	        </configuration>
+	      </plugin>
+	  </plugins>
+  </build>
 
 </project>
