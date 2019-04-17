@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="com.wunderit.AppTest" time="0.016" errors="0" skipped="1">
+<testsuite tests="3" failures="1" name="com.wunderit.AppTest" time="0.039" errors="0" skipped="1">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="JenkinsMaven"/>
@@ -12,7 +12,7 @@
     <property name="POM_ARTIFACTID" value="ProjetB"/>
     <property name="os.name" value="Linux"/>
     <property name="sun.boot.class.path" value="/opt/jdk1.8/jre/lib/resources.jar:/opt/jdk1.8/jre/lib/rt.jar:/opt/jdk1.8/jre/lib/sunrsasign.jar:/opt/jdk1.8/jre/lib/jsse.jar:/opt/jdk1.8/jre/lib/jce.jar:/opt/jdk1.8/jre/lib/charsets.jar:/opt/jdk1.8/jre/lib/jfr.jar:/opt/jdk1.8/jre/classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="POM_DISPLAYNAME" value="ProjetB"/>
     <property name="NODE_LABELS" value="master"/>
@@ -21,15 +21,15 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="JenkinsMaven"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/JenkinsMaven/4/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/JenkinsMaven/7/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
     <property name="sun.boot.library.path" value="/opt/jdk1.8/jre/lib/amd64"/>
     <property name="java.version" value="1.8.0_201"/>
     <property name="user.timezone" value="Europe/Paris"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="/opt/jdk1.8/jre/lib/endorsed"/>
-    <property name="BUILD_ID" value="4"/>
+    <property name="BUILD_ID" value="7"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -44,12 +44,12 @@
     <property name="java.home" value="/opt/jdk1.8/jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="3.10.0-957.10.1.el7.x86_64"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/JenkinsMaven/4/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/JenkinsMaven/7/display/redirect"/>
     <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
     <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
     <property name="path.separator" value=":"/>
     <property name="java.vm.version" value="25.201-b09"/>
-    <property name="GIT_PREVIOUS_COMMIT" value="dba998b37825552d104e76ba964bf6ffec121e46"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="ee94e68022700f52cd4d684129ca554835372a6d"/>
     <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/JenkinsMaven/display/redirect"/>
     <property name="SHLVL" value="2"/>
     <property name="_" value="/etc/alternatives/java"/>
@@ -62,7 +62,7 @@
     <property name="HOME" value="/var/lib/jenkins"/>
     <property name="POM_GROUPID" value="com.wunderit"/>
     <property name="user.home" value="/var/lib/jenkins"/>
-    <property name="BUILD_TAG" value="jenkins-JenkinsMaven-4"/>
+    <property name="BUILD_TAG" value="jenkins-JenkinsMaven-7"/>
     <property name="JENKINS_SERVER_COOKIE" value="e9706667f8191ba5"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -73,7 +73,7 @@
     <property name="maven.home" value="/opt/maven"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.class.path" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12.jar:/opt/maven/boot/plexus-classworlds-2.5.2.jar:/opt/maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /opt/maven/ /var/cache/jenkins/war/WEB-INF/lib/remoting-3.29.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar 43987"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /opt/maven/ /var/cache/jenkins/war/WEB-INF/lib/remoting-3.29.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar 44434"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PATH+JDK" value="/opt/jdk1.8/bin"/>
     <property name="java.vm.specification.version" value="1.8"/>
@@ -83,21 +83,21 @@
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
     <property name="PATH+MAVEN" value="/opt/maven//bin"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/JenkinsMaven/4/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/JenkinsMaven/7/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.ext.dirs" value="/opt/jdk1.8/jre/lib/ext:/usr/java/packages/lib/ext"/>
-    <property name="user.dir" value="/var/lib/jenkins/workspace/TpArtifactory"/>
+    <property name="user.dir" value="/var/lib/jenkins/workspace/JenkinsMaven"/>
     <property name="JOB_URL" value="http://localhost:8080/job/JenkinsMaven/"/>
     <property name="line.separator" value="
 "/>
     <property name="MAVEN_HOME" value="/opt/maven/"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="4"/>
+    <property name="BUILD_NUMBER" value="7"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="GIT_BRANCH" value="origin/dev"/>
-    <property name="GIT_COMMIT" value="dba998b37825552d104e76ba964bf6ffec121e46"/>
+    <property name="GIT_COMMIT" value="ee94e68022700f52cd4d684129ca554835372a6d"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="LANG" value="en_US.UTF-8"/>
     <property name="maven3.interceptor" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar"/>
@@ -107,10 +107,10 @@
     <property name="USER" value="jenkins"/>
     <property name="GIT_URL" value="https://github.com/BadBeerus/TpArtifactory.git"/>
   </properties>
-  <testcase classname="com.wunderit.AppTest" name="test2" time="0.015">
+  <testcase classname="com.wunderit.AppTest" name="test2" time="0.036">
     <skipped/>
   </testcase>
-  <testcase classname="com.wunderit.AppTest" name="test3" time="0.001">
+  <testcase classname="com.wunderit.AppTest" name="test3" time="0.003">
     <failure message="expected:&lt;false&gt; but was:&lt;true&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;false&gt; but was:&lt;true&gt;
 	at org.junit.Assert.fail(Assert.java:91)
 	at org.junit.Assert.failNotEquals(Assert.java:645)
